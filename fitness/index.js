@@ -1,0 +1,1 @@
+const fintess = require('./script2')

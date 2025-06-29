@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(21, 20, 20);
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 15px 20px;
+    color: white;
+}
+
+.nav-left p {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.nav-left i {
+    font-size: 24px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.search-icon i {
+    color: gray;
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: darkred;
+}
+.hero-section {
+    width: 100%;
+    height: 70vh; 
+    overflow: hidden;
+    position: relative;
+}
+.slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: 100%; 
+    height: 100%;
+    animation: slide 5s infinite;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+}
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    
+    height: 500px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: rem;
+    margin-bottom: rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+.video-container {
+    position: relative;
+    background-color: rgb(174, 209, 19);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25.25%;
+    margin-top: 35px; 
+    height: 50%;
+}
+.video-container iframe {
+    position: absolute;
+    margin-top: 100px;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 75%;
+    padding-left: 260px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: white;
+}
+.items{
+    align-items: right;
+    justify-content: right;
+    color: #e2e7e6;
+}
+.gym-footer {
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-logo p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.footer-links, .footer-contact, .footer-social {
+    margin: 15px 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #f39c12;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    background-color: black;
+    height: ;
+    
+}
+.box2{
+    background-color: #f39c12;
+    height: 500px;
+    width:  400px;
+
+}
+.box2 img{
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.box-content2 {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-left: px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.box-content2 p{
+    margin-top: px;
+    padding-left: 20px;
+}

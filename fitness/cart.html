@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Add to Cart</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body style="background-color: yellowgreen;">
+
+    <h1 class="title"><i class="fa-solid fa-dumbbell"></i>MY FITNESS</h1>
+
+    <div class="container">
+        
+        <div class="product-list">
+            <div class="product">
+                <img src="image copy 4.png" alt="Laptop">
+                <h2>Whey Protein<br>
+                    1kg
+                </h2>
+                <p>₹1320.00</p>
+                <button class="add-to-cart" onclick="addToCart('Laptop', 1000, 'laptop.jpg')">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="image copy 4.png" alt="Phone">
+                <h2>Whey Protein<br>2kg</h2>
+                <p>₹2100.00</p>
+                <button class="add-to-cart" onclick="addToCart('Phone', 500, 'phone.jpg')">Add to Cart</button>
+            </div>
+
+            
+        </div>
+        <div class="cart">
+            <h2><b>GYM ID 100 % Whey Protein - 1 Kg - Unflowered ( USA Made )</b></h2>
+            <ul id="cart-items"></ul>
+            <pre style="font-size: 25px;"><b>     Price                   ₹1500.00</b></pre><br>
+            <pre style="font-size: 25px;"><b>     Discount                ₹180.00</b></pre><br>
+            <pre style="font-size: 25px;"><b>     OFF                         <s>12%</s></b></pre>
+            <hr>
+            <pre style="font-size: 25px;"><b>     Total Price              ₹1320</b></pre>
+
+        <button class="add-to-cart" onclick="addToCart('Phone', 500, 'phone.jpg')" style="margin-top: 200px; width: 100%; margin-bottom: ;">Add to Cart</button>
+        </div>
+
+        
+    </div>
+</body>
+</html>

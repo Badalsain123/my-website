@@ -1,0 +1,92 @@
+body .container2{
+    font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100 ;
+            margin: 0;
+            background-color: #f4f4f4;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 50px;
+    text-align: left;
+}
+.container2{
+    display: flex;
+    justify-content: space-between; 
+    align-items: left;
+    width: 90%; 
+    max-width: 800px;
+    margin-top: 200px;
+    padding: px;
+}
+.container3{
+    display: flex;
+    justify-content: space-between; 
+    width: 90%; 
+    max-width: 800px;
+    margin-top: 70px;
+    padding: 50px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden; /* Ensures image stays within the box */
+}
+
+.box img, .box2 img {
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.box:hover {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(52, 223, 5);
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
